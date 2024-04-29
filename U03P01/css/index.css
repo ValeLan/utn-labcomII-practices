@@ -1,3 +1,53 @@
+body{
+    background-color: rgb(245,245,245);
+}
+*{
+    font-family: sans-serif;
+}
+
 h1{
-    color: red;
+    height: 24px;
+    color: #242424;
+    font-weight: 900;
+}
+
+h2{
+    height: 20px;
+    color: #606060;
+    font-weight: 800;
+}
+
+p{
+    height: 14px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+ul{
+    list-style-type: none;
+    margin-left: 100px;
+    padding: 20px;
+    border: solid 2px blue;
+    max-width: 40%;
+}
+li{
+    font-family: monospace;
+    height: 18px;
+    padding: 10px;
+}
+
+.distinto{
+    color: green;
+}
+
+a{
+    font-weight: bold;
+}
+
+li a{
+    color: orange;
+    text-decoration: underline;
+}
+
+li:hover{
+    background-color: rgba(0,0,0,0.1);
 }
